@@ -1,0 +1,559 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Lucas Lozano · Mesures Physiques</title>
+  <meta name="description" content="Lucas Lozano, étudiant en BUT Mesures Physiques en double cursus avec la prépa ingénieur CITISE de Télécom Saint-Étienne. Recherche un stage de technicien en instrumentation et métrologie de 11 semaines à partir du 12 avril 2027.">
+  <meta name="author" content="Lucas Lozano">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Person","name":"Lucas Lozano","jobTitle":"Étudiant en BUT Mesures Physiques","alumniOf":[{"@type":"HighSchool","name":"Aux Lazaristes – La Salle, Lyon"},{"@type":"CollegeOrUniversity","name":"IUT de Saint-Étienne"},{"@type":"CollegeOrUniversity","name":"Télécom Saint-Étienne"}],"sameAs":["https://www.linkedin.com/in/lucas-lozano-7154502a8/"],"knowsLanguage":["fr","en","de"]}
+  </script>
+  <meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b0b0c" media="(prefers-color-scheme: dark)">
+  <meta property="og:title" content="Lucas Lozano · Mesures Physiques">
+  <meta property="og:description" content="Mesurer juste. Expliquer clairement. Stage de 11 semaines à partir du 12 avril 2027.">
+  <meta property="og:image" content="assets/lucas.jpg">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    // Thème appliqué avant le rendu pour éviter un flash
+    try { var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+    document.documentElement.classList.add('js');
+  </script>
+</head>
+<body>
+  <div class="intro" aria-hidden="true">
+    <div class="intro__mark">
+      <span class="intro__ticks"></span>
+      <span class="intro__name">Lucas Lozano</span>
+    </div>
+  </div>
+
+  <div class="progress" aria-hidden="true"><span></span></div>
+
+  <header class="nav" id="top">
+    <div class="nav__inner">
+      <a class="nav__brand" href="#accueil" aria-label="Lucas Lozano, accueil"><span class="dot"></span>Lucas Lozano</a>
+      <nav class="nav__links" aria-label="Sections">
+        <a href="#parcours" data-i18n="nav.story">Parcours</a>
+        <a href="#mesure" data-i18n="nav.method">Méthode</a>
+        <a href="#calculateur" data-i18n="nav.calc">Calculateur</a>
+        <a href="#projets" data-i18n="nav.projects">Projets</a>
+        <a href="#competences" data-i18n="nav.skills">Compétences</a>
+        <a href="#passions" data-i18n="nav.passions">Passions</a>
+      </nav>
+      <div class="nav__actions">
+        <button class="lang" type="button" aria-label="Switch to English" data-lang-toggle>
+          <span data-l="fr">FR</span><span data-l="en">EN</span>
+        </button>
+        <button class="icon-btn" type="button" data-theme-toggle aria-label="Changer de thème">
+          <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6"/></svg>
+          <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.6A8 8 0 0 1 9.4 4a8 8 0 1 0 10.6 10.6z"/></svg>
+        </button>
+        <a class="pill pill--dark nav__cv" href="#contact" data-i18n="nav.contact">Contact</a>
+        <button class="burger" type="button" aria-label="Menu" aria-expanded="false" data-burger><span></span><span></span></button>
+      </div>
+    </div>
+    <div class="sheet" data-sheet>
+      <a href="#parcours" data-i18n="nav.story">Parcours</a>
+        <a href="#mesure" data-i18n="nav.method">Méthode</a>
+      <a href="#calculateur" data-i18n="nav.calc">Calculateur</a>
+      <a href="#projets" data-i18n="nav.projects">Projets</a>
+      <a href="#competences" data-i18n="nav.skills">Compétences</a>
+      <a href="#passions" data-i18n="nav.passions">Passions</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="accueil">
+      <div class="hero__text">
+        <p class="badge reveal"><span class="pulse"></span><span data-i18n="hero.badge">Disponible · stage de 11 semaines dès le 12 avril 2027</span></p>
+        <p class="hero__hello reveal" data-i18n="hero.hello">Bonjour, je suis Lucas.</p>
+        <h1 class="hero__title">
+          <span class="line"><span class="word" data-i18n="hero.t1">Mesurer juste.</span></span>
+          <span class="line muted"><span class="word" data-i18n="hero.t2">Expliquer clairement.</span></span>
+        </h1>
+        <p class="hero__lead reveal" data-i18n="hero.lead">Étudiant en deuxième année de <strong>BUT Mesures Physiques</strong>, en double cursus avec la prépa ingénieur <strong>CITISE</strong> de Télécom Saint-Étienne. Je recherche un stage de technicien en instrumentation et métrologie.</p>
+        <div class="hero__cta reveal">
+          <a class="pill pill--dark" href="#mesure"><span data-i18n="hero.cta1">Découvrir mon parcours</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+          <a class="pill" href="assets/CV_LOZANO_Lucas.pdf" download><span data-i18n="hero.cta2">Télécharger le CV</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19.5h14"/></svg></a>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <div class="hero__glow" aria-hidden="true"></div>
+        <figure class="portrait" data-tilt>
+          <img src="assets/lucas.jpg" alt="Portrait de Lucas Lozano" width="896" height="1184" fetchpriority="high">
+          <figcaption class="portrait__tag glass">
+            <span class="portrait__k" data-i18n="hero.tagk">Double cursus</span>
+            <span class="portrait__v">IUT · Télécom Saint-Étienne</span>
+          </figcaption>
+          <div class="portrait__reading glass" aria-hidden="true">
+            <span class="mono">u<sub>c</sub></span>
+            <span class="mono" data-live-reading>0,000</span>
+          </div>
+        </figure>
+      </div>
+      <a class="scroll-cue" href="#chiffres" aria-label="Descendre"><span></span></a>
+    </section>
+
+    <!-- ============ RÈGLE GRADUÉE ============ -->
+    <div class="ruler" aria-hidden="true">
+      <div class="ruler__track" data-ruler></div>
+      <div class="ruler__cursor"><span data-ruler-value>0 mm</span></div>
+    </div>
+
+    <!-- ============ MANIFESTE ============ -->
+    <section class="manifesto" id="apropos">
+      <p class="eyebrow reveal" data-i18n="mf.eyebrow">En quelques mots</p>
+      <p class="manifesto__text" data-manifesto data-i18n="mf.text">Lyonnais d'origine, étudiant à Saint-Étienne, je mène deux formations de front. Ce qui m'anime&#8239;: comprendre <em>comment on sait qu'une mesure est juste</em>, puis l'expliquer simplement. Le reste du temps, je joue aux échecs, je suis l'OL et je reste fasciné par la chimie des parfums.</p>
+    </section>
+
+    <!-- ============ CHIFFRES ============ -->
+    <section class="stats" id="chiffres">
+      <div class="stat reveal">
+        <span class="stat__n"><span data-count="11">0</span></span>
+        <span class="stat__l" data-i18n="stats.weeks">semaines de stage,<br>à partir du 12 avril 2027</span>
+      </div>
+      <div class="stat reveal">
+        <span class="stat__n"><span data-count="2">0</span></span>
+        <span class="stat__l" data-i18n="stats.tracks">formations suivies<br>en parallèle depuis 2024</span>
+      </div>
+      <div class="stat reveal">
+        <span class="stat__n"><span data-count="2">0</span>–<span data-count="5">0</span></span>
+        <span class="stat__l" data-i18n="stats.tutor">étudiants de 1<sup>re</sup> année<br>accompagnés chaque semaine</span>
+      </div>
+      <div class="stat reveal">
+        <span class="stat__n">k&#8239;=&#8239;<span data-count="2">0</span></span>
+        <span class="stat__l" data-i18n="stats.k">facteur d'élargissement :<br>la méthode GUM, pas l'à-peu-près</span>
+      </div>
+    </section>
+
+    <!-- ============ PARCOURS EN RÉCIT ============ -->
+    <section class="story" id="parcours">
+      <div class="section__head reveal">
+        <p class="eyebrow" data-i18n="st.eyebrow">Parcours</p>
+        <h2 class="h2" data-i18n="st.title">Mon histoire,<br><span class="muted">chapitre par chapitre.</span></h2>
+      </div>
+      <div class="story__grid">
+        <aside class="story__aside" aria-hidden="true">
+          <div class="story__year"><span data-story-year>2021</span></div>
+          <p class="story__place" data-story-place>Lyon</p>
+          <div class="story__dots"><i></i><i></i><i></i><i></i><i></i></div>
+        </aside>
+
+        <div class="story__chapters">
+          <article class="chapter" data-year="2021" data-place="Lyon" data-place-en="Lyon">
+            <span class="chapter__k"><b data-i18n="st.c0k">Prologue</b> · <span data-i18n="st.c0d">janvier 2021</span></span>
+            <h3 class="chapter__t" data-i18n="st.c0t">Une semaine dans un atelier d'usinage.</h3>
+            <p data-i18n="st.c0p">Mon stage d'observation chez DLO Indus, à Lyon, me fait découvrir la fabrication de précision et les contraintes de la production industrielle. Premier contact avec un monde où chaque cote compte.</p>
+          </article>
+
+          <article class="chapter" data-year="2021" data-place="Lyon · Fourvière" data-place-en="Lyon · Fourvière">
+            <span class="chapter__k"><b data-i18n="st.c1k">Chapitre 1</b> · 2021 – 2024</span>
+            <h3 class="chapter__t" data-i18n="st.c1t">Les Lazaristes, l'école de l'exigence.</h3>
+            <p data-i18n="st.c1p">J'étudie au lycée Aux Lazaristes – La Salle, établissement des Frères des Écoles chrétiennes sur le site de Fourvière, régulièrement cité parmi les meilleurs lycées de Lyon. J'y apprends à travailler avec méthode et régularité, je choisis les spécialités mathématiques et physique-chimie, et j'obtiens mon baccalauréat général en juillet 2024.</p>
+            <figure class="chapter__media">
+              <div class="chapter__frame"><img src="assets/lycee.jpg" alt="La cour du lycée Aux Lazaristes – La Salle, à Lyon" width="474" height="316" loading="lazy" data-parallax></div>
+              <span class="chapter__logo"><img src="assets/lazaristes.png" alt="Logo du lycée Aux Lazaristes – La Salle, Lyon" width="768" height="264" loading="lazy"></span>
+            </figure>
+          </article>
+
+          <article class="chapter" data-year="2024" data-place="Saint-Étienne" data-place-en="Saint-Étienne">
+            <span class="chapter__k"><b data-i18n="st.c2k">Chapitre 2</b> · <span data-i18n="st.c2d">septembre 2024</span></span>
+            <h3 class="chapter__t" data-i18n="st.c2t">Saint-Étienne, deux formations de front.</h3>
+            <p data-i18n="st.c2p">Je choisis un double cursus&#8239;: le BUT Mesures Physiques à l'IUT de Saint-Étienne et la prépa intégrée CITISE de Télécom Saint-Étienne, menés en parallèle, avec le cycle ingénieur en ligne de mire. Deux emplois du temps, deux diplômes, une même question&#8239;: comment prouver qu'une mesure est juste&#8239;?</p>
+            <figure class="chapter__media">
+              <div class="chapter__frame"><img src="assets/telecom.jpg" alt="Le bâtiment de Télécom Saint-Étienne" width="679" height="450" loading="lazy" data-parallax></div>
+              <figcaption class="chapter__cap glass"><span class="dot"></span>Télécom Saint-Étienne · IUT de Saint-Étienne</figcaption>
+            </figure>
+          </article>
+
+          <article class="chapter" data-year="2026" data-place="Saint-Étienne" data-place-en="Saint-Étienne">
+            <span class="chapter__k"><b data-i18n="st.c3k">Chapitre 3</b> · 2025 – 2026</span>
+            <h3 class="chapter__t" data-i18n="st.c3t">Les premiers projets, les premières responsabilités.</h3>
+            <p data-i18n="st.c3p">Je conçois un outil Excel qui calcule automatiquement l'incertitude d'une chaîne de mesure selon le GUM, puis je dirige le projet d'application WinDev pour apprendre l'anglais. En TP, je découvre le vide secondaire, LabVIEW et la spectrophotométrie. Depuis septembre 2026, j'accompagne aussi chaque semaine des étudiants de première année.</p>
+            <div class="chapter__facts">
+              <div class="fact"><b>GUM</b><span data-i18n="st.f1">outil Excel d'incertitude</span></div>
+              <div class="fact"><b data-i18n="st.f2b">Chef de projet</b><span data-i18n="st.f2">application WinDev</span></div>
+              <div class="fact"><b data-i18n="st.f3b">2 à 5</b><span data-i18n="st.f3">étudiants tutorés chaque semaine</span></div>
+            </div>
+          </article>
+
+          <article class="chapter" data-year="2027" data-place="Lyon · Saint-Étienne · Île-de-France" data-place-en="Lyon · Saint-Étienne · Paris area">
+            <span class="chapter__k"><b data-i18n="st.c4k">Chapitre 4</b> · <span data-i18n="st.c4d">avril 2027</span></span>
+            <h3 class="chapter__t" data-i18n="st.c4t">Le prochain chapitre s'écrit avec vous.</h3>
+            <p data-i18n="st.c4p">Un stage de technicien en instrumentation et métrologie de 11 semaines, à partir du 12 avril 2027, à Lyon, à Saint-Étienne ou en Île-de-France.</p>
+            <div class="chapter__next">
+              <span class="typing" data-i18n="st.type">Votre laboratoire&#8239;?</span>
+              <a class="pill pill--accent" href="#contact"><span data-i18n="st.cta">Écrire ce chapitre ensemble</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true"><div class="marquee__track"></div></div>
+
+    <!-- ============ CHAÎNE DE MESURE (section épinglée) ============ -->
+    <section class="chain" id="mesure">
+      <div class="chain__sticky">
+        <div class="chain__head">
+          <p class="eyebrow" data-i18n="chain.eyebrow">Ma méthode</p>
+          <h2 class="h2" data-i18n="chain.title">De la grandeur physique<br><span class="muted">au résultat qu'on peut signer.</span></h2>
+        </div>
+        <div class="chain__body">
+          <ol class="chain__steps">
+            <li class="chain__step is-active" data-step="0">
+              <span class="num">01</span>
+              <div>
+                <h3 data-i18n="chain.s1t">Capter</h3>
+                <p data-i18n="chain.s1p">Choisir et mettre en œuvre le capteur : thermocouple, PT100, capteur de force, capteur de distance.</p>
+              </div>
+            </li>
+            <li class="chain__step" data-step="1">
+              <span class="num">02</span>
+              <div>
+                <h3 data-i18n="chain.s2t">Acquérir</h3>
+                <p data-i18n="chain.s2p">Conditionner le signal, l'acquérir et le traiter sous LabVIEW ; instruments de mesure électrique au banc.</p>
+              </div>
+            </li>
+            <li class="chain__step" data-step="2">
+              <span class="num">03</span>
+              <div>
+                <h3 data-i18n="chain.s3t">Quantifier</h3>
+                <p data-i18n="chain.s3p">Raccorder aux étalons et faire le bilan d'incertitudes selon le GUM, avec le vocabulaire du VIM.</p>
+              </div>
+            </li>
+            <li class="chain__step" data-step="3">
+              <span class="num">04</span>
+              <div>
+                <h3 data-i18n="chain.s4t">Communiquer</h3>
+                <p data-i18n="chain.s4p">Écrire le résultat avec son incertitude élargie, rédiger la procédure ou le certificat d'étalonnage.</p>
+              </div>
+            </li>
+          </ol>
+          <div class="chain__visual" aria-hidden="true">
+            <svg viewBox="0 0 420 420" class="chain__svg">
+              <defs>
+                <linearGradient id="wire" x1="0" x2="1">
+                  <stop offset="0" stop-color="var(--accent)"/>
+                  <stop offset="1" stop-color="var(--accent-2)"/>
+                </linearGradient>
+              </defs>
+              <path class="chain__base" d="M70 70 H350 V210 H70 V350 H350"/>
+              <path class="chain__wire" d="M70 70 H350 V210 H70 V350 H350" pathLength="1"/>
+              <circle class="chain__pulse" r="6"/>
+              <g class="node" data-node="0" transform="translate(70 70)">
+                <circle r="34"/>
+                <path d="M-6-16v20a9 9 0 1 0 12 0v-20a6 6 0 0 0-12 0z M0 6v-14"/>
+              </g>
+              <g class="node" data-node="1" transform="translate(350 210)">
+                <circle r="34"/>
+                <path d="M-16 0h6l4-10 6 20 5-14 3 4h8"/>
+              </g>
+              <g class="node" data-node="2" transform="translate(70 350)">
+                <circle r="34"/>
+                <path d="M-17 10c6 0 8-24 17-24s11 24 17 24 M-7 10V-3 M7 10V-3"/>
+              </g>
+              <g class="node" data-node="3" transform="translate(350 350)">
+                <circle r="34"/>
+                <path d="M-9-15h12l7 7v23h-19z M-4-2h11 M-4 5h11"/>
+              </g>
+              <text class="chain__readout" x="210" y="146" text-anchor="middle" data-chain-readout>x = 10,003 mm</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CALCULATEUR GUM ============ -->
+    <section class="calc section" id="calculateur">
+      <div class="section__head reveal">
+        <p class="eyebrow" data-i18n="calc.eyebrow">Démonstration interactive</p>
+        <h2 class="h2" data-i18n="calc.title">Un bilan d'incertitude,<br><span class="muted">en direct.</span></h2>
+        <p class="lead" data-i18n="calc.lead">En projet de métrologie, j'ai étudié un capteur de distance à l'aide de cales étalons et conçu un outil Excel qui calculait automatiquement l'incertitude. Voici le même raisonnement, en version web. Modifiez les valeurs : tout se recalcule.</p>
+      </div>
+
+      <div class="calc__grid reveal">
+        <form class="card calc__form" data-calc autocomplete="off" onsubmit="return false">
+          <label class="field">
+            <span class="field__l" data-i18n="calc.values">Mesures répétées (mm)</span>
+            <textarea name="values" rows="3" spellcheck="false">10,003 10,005 10,002 10,004 10,003 10,006 10,002 10,004</textarea>
+            <span class="field__h" data-i18n="calc.valuesHint">Valeurs d'exemple, séparées par des espaces : lectures d'un capteur face à une cale étalon de 10 mm.</span>
+          </label>
+          <div class="field-row">
+            <label class="field">
+              <span class="field__l" data-i18n="calc.res">Résolution de l'indicateur (mm)</span>
+              <input name="res" type="text" inputmode="decimal" value="0,001">
+            </label>
+            <label class="field">
+              <span class="field__l" data-i18n="calc.std">U de l'étalon, k = 2 (mm)</span>
+              <input name="std" type="text" inputmode="decimal" value="0,0008">
+            </label>
+          </div>
+          <div class="field">
+            <span class="field__l" data-i18n="calc.k">Facteur d'élargissement k</span>
+            <div class="seg" role="radiogroup">
+              <label><input type="radio" name="k" value="1"><span>1</span></label>
+              <label><input type="radio" name="k" value="2" checked><span>2</span></label>
+              <label><input type="radio" name="k" value="3"><span>3</span></label>
+            </div>
+          </div>
+        </form>
+
+        <div class="card calc__out" aria-live="polite">
+          <p class="calc__label" data-i18n="calc.result">Résultat de mesure</p>
+          <p class="calc__result"><span data-out="mean">–</span> <span class="pm">±</span> <span data-out="U">–</span> <span class="unit">mm</span></p>
+          <p class="calc__meta"><span data-out="meta"></span></p>
+
+          <svg class="gauss" viewBox="0 0 400 140" preserveAspectRatio="none" aria-hidden="true">
+            <path class="gauss__band" data-gauss-band d=""/>
+            <path class="gauss__curve" data-gauss-curve d=""/>
+            <line class="gauss__mean" x1="200" x2="200" y1="8" y2="132"/>
+          </svg>
+
+          <div class="budget">
+            <div class="budget__row" data-row="A">
+              <span class="budget__name" data-i18n="calc.bA">Répétabilité (type A) · s/√n</span>
+              <span class="budget__val mono" data-out="uA">–</span>
+              <span class="budget__bar"><i></i></span>
+            </div>
+            <div class="budget__row" data-row="R">
+              <span class="budget__name" data-i18n="calc.bR">Résolution (type B) · r/√12</span>
+              <span class="budget__val mono" data-out="uR">–</span>
+              <span class="budget__bar"><i></i></span>
+            </div>
+            <div class="budget__row" data-row="E">
+              <span class="budget__name" data-i18n="calc.bE">Étalon (type B) · U/k</span>
+              <span class="budget__val mono" data-out="uE">–</span>
+              <span class="budget__bar"><i></i></span>
+            </div>
+            <div class="budget__row budget__row--total">
+              <span class="budget__name" data-i18n="calc.bC">Incertitude-type composée u<sub>c</sub></span>
+              <span class="budget__val mono" data-out="uc">–</span>
+            </div>
+          </div>
+          <p class="calc__note" data-i18n="calc.note">Les barres montrent la part de chaque source dans la variance. Le résultat est arrondi à deux chiffres significatifs sur l'incertitude.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJETS ============ -->
+    <section class="section" id="projets">
+      <div class="section__head reveal">
+        <p class="eyebrow" data-i18n="proj.eyebrow">Projets</p>
+        <h2 class="h2" data-i18n="proj.title">Ce que j'ai construit,<br><span class="muted">et ce que j'en ai appris.</span></h2>
+      </div>
+
+      <article class="feature reveal">
+        <div class="feature__media feature__media--metro" aria-hidden="true">
+          <div class="blocks">
+            <span style="--h:38%"></span><span style="--h:56%"></span><span style="--h:74%"></span><span style="--h:92%"></span>
+          </div>
+          <div class="caliper"><span class="caliper__val mono" data-caliper>10,000</span></div>
+        </div>
+        <div class="feature__text">
+          <span class="feature__num">01</span>
+          <h3 class="h3" data-i18n="proj.p1t">Projet métrologique : un capteur de distance face aux cales étalons</h3>
+          <p data-i18n="proj.p1p">Modélisation de la chaîne de mesure, bilan d'incertitudes selon la méthode GUM, puis conception d'un outil Excel qui calcule automatiquement l'incertitude à partir des mesures saisies.</p>
+          <ul class="chips"><li>GUM</li><li>VIM</li><li data-i18n="chip.gauge">Cales étalons</li><li>Excel</li></ul>
+        </div>
+      </article>
+
+      <article class="feature feature--rev reveal">
+        <div class="feature__media feature__media--game" aria-hidden="true">
+          <div class="phone">
+            <div class="phone__screen">
+              <span class="phone__word mono" data-word>MEASURE</span>
+              <span class="phone__lvl">
+                <i data-i18n="game.l1">Facile</i><i data-i18n="game.l2">Moyen</i><i data-i18n="game.l3">Difficile</i><i>Hardcore</i>
+              </span>
+              <span class="phone__score mono">+<b data-score>120</b> pts</span>
+            </div>
+          </div>
+        </div>
+        <div class="feature__text">
+          <span class="feature__num">02</span>
+          <h3 class="h3" data-i18n="proj.p2t">Chef de projet : une application pour apprendre l'anglais</h3>
+          <p data-i18n="proj.p2p">Application mobile ludo-éducative développée sous WinDev en 2026 : quatre niveaux de difficulté, tirage aléatoire des mots, système de points, bases de données des joueurs et des scores, mode administrateur. J'ai planifié, coordonné et supervisé l'équipe, du choix du projet à la démo finale.</p>
+          <ul class="chips"><li data-i18n="chip.pm">Gestion de projet</li><li>WinDev</li><li data-i18n="chip.db">Bases de données</li><li data-i18n="chip.en">Anglais</li></ul>
+        </div>
+      </article>
+
+      <article class="feature reveal">
+        <div class="feature__media feature__media--tutor" aria-hidden="true">
+          <div class="orbit">
+            <span class="orbit__core">L</span>
+            <span class="orbit__ring">
+              <span class="orbit__p" style="--a:0deg"></span>
+              <span class="orbit__p" style="--a:72deg"></span>
+              <span class="orbit__p" style="--a:144deg"></span>
+              <span class="orbit__p" style="--a:216deg"></span>
+              <span class="orbit__p" style="--a:288deg"></span>
+            </span>
+          </div>
+        </div>
+        <div class="feature__text">
+          <span class="feature__num">03</span>
+          <h3 class="h3" data-i18n="proj.p3t">Tuteur CITISE 1 à Télécom Saint-Étienne</h3>
+          <p data-i18n="proj.p3p">Depuis septembre 2026, j'accompagne chaque semaine 2 à 5 étudiants de première année dans leurs matières scientifiques. Expliquer simplement une notion difficile, c'est la même exigence qu'écrire une procédure claire.</p>
+          <ul class="chips"><li data-i18n="chip.peda">Pédagogie</li><li data-i18n="chip.speak">Prise de parole</li><li data-i18n="chip.group">Gestion de groupe</li></ul>
+        </div>
+      </article>
+    </section>
+
+    <!-- ============ AU LABORATOIRE ============ -->
+    <section class="section section--tight" id="labo">
+      <div class="section__head reveal">
+        <p class="eyebrow" data-i18n="lab.eyebrow">Au laboratoire</p>
+        <h2 class="h2" data-i18n="lab.title">Des travaux pratiques<br><span class="muted">évalués, pas seulement suivis.</span></h2>
+      </div>
+      <div class="tiles">
+        <article class="tile reveal">
+          <div class="tile__icon" aria-hidden="true"><svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="15"/><path d="M24 24 33 15"/><path d="M13 31h22"/></svg></div>
+          <h3 data-i18n="lab.t1">Technique du vide</h3>
+          <p data-i18n="lab.p1">Pompes sèches et pompe turbomoléculaire, pour atteindre un vide primaire puis secondaire.</p>
+        </article>
+        <article class="tile reveal">
+          <div class="tile__icon" aria-hidden="true"><svg viewBox="0 0 48 48"><rect x="8" y="12" width="32" height="24" rx="4"/><path d="M13 28l6-8 5 5 5-9 6 12"/></svg></div>
+          <h3>LabVIEW</h3>
+          <p data-i18n="lab.p2">Acquisition et traitement de données : TP notés en fin de première année, et en mécanique des fluides cette année.</p>
+        </article>
+        <article class="tile reveal">
+          <div class="tile__icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M6 38c6 0 8-26 14-26s6 18 10 18 5-8 12-8"/><path d="M6 42h36"/></svg></div>
+          <h3 data-i18n="lab.t3">Spectrophotométrie</h3>
+          <p data-i18n="lab.p3">Mesure de l'absorbance de solutions plus ou moins diluées et tracé de leurs spectres.</p>
+        </article>
+        <article class="tile reveal">
+          <div class="tile__icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M14 6h14l8 8v28H14z"/><path d="M28 6v8h8M19 24h12M19 30h12M19 36h7"/></svg></div>
+          <h3 data-i18n="lab.t4">Certificat d'étalonnage</h3>
+          <p data-i18n="lab.p4">Rédaction d'un certificat d'étalonnage, exercice évalué en BUT Mesures Physiques ; utilisation de masses étalons.</p>
+        </article>
+        <article class="tile reveal">
+          <div class="tile__icon" aria-hidden="true"><svg viewBox="0 0 48 48"><circle cx="16" cy="30" r="8"/><path d="M16 22V8M32 40V20m-5 5 5-5 5 5"/></svg></div>
+          <h3 data-i18n="lab.t5">Capteurs et dimensionnel</h3>
+          <p data-i18n="lab.p5">Thermocouple, PT100, capteur de force ; colonne de mesure et pied à coulisse.</p>
+        </article>
+        <article class="tile reveal">
+          <div class="tile__icon" aria-hidden="true"><svg viewBox="0 0 48 48"><rect x="8" y="10" width="32" height="22" rx="3"/><path d="M12 22c3-6 5-6 8 0s5 6 8 0 5-6 8 0M18 40h12M24 32v8"/></svg></div>
+          <h3 data-i18n="lab.t6">Électricité et électronique</h3>
+          <p data-i18n="lab.p6">Oscilloscope, multimètre, wattmètre et générateurs ; analyse de circuits, moteurs électriques.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ COMPÉTENCES ============ -->
+    <section class="section skills" id="competences">
+      <div class="section__head reveal">
+        <p class="eyebrow" data-i18n="sk.eyebrow">Compétences</p>
+        <h2 class="h2" data-i18n="sk.title">La boîte à outils.</h2>
+      </div>
+      <div class="skills__grid">
+        <div class="skill reveal">
+          <h3 data-i18n="sk.c1">Métrologie et étalonnage</h3>
+          <ul><li data-i18n="sk.i11">Incertitudes de mesure, méthode GUM</li><li data-i18n="sk.i12">Vocabulaire international de métrologie (VIM)</li><li data-i18n="sk.i13">Étalons, raccordement, certificat d'étalonnage</li></ul>
+        </div>
+        <div class="skill reveal">
+          <h3 data-i18n="sk.c2">Instrumentation et capteurs</h3>
+          <ul><li data-i18n="sk.i21">Chaînes de mesure</li><li data-i18n="sk.i22">Température : thermocouple, PT100</li><li data-i18n="sk.i23">Force, distance, métrologie dimensionnelle</li></ul>
+        </div>
+        <div class="skill reveal">
+          <h3 data-i18n="sk.c3">Acquisition et programmation</h3>
+          <ul><li data-i18n="sk.i31">LabVIEW, traitement du signal</li><li data-i18n="sk.i32">Excel : outils de calcul automatisés</li><li data-i18n="sk.i33">Notions de Python, WinDev, SolidWorks</li></ul>
+        </div>
+        <div class="skill reveal">
+          <h3 data-i18n="sk.c4">Physique et physico-chimie</h3>
+          <ul><li data-i18n="sk.i41">Optique, acoustique, matériaux</li><li data-i18n="sk.i42">Technique du vide, mécanique des fluides</li><li data-i18n="sk.i43">Spectrophotométrie, chromatographie, pH-métrie, dosages, calorimétrie</li></ul>
+        </div>
+      </div>
+      <div class="langs reveal">
+        <div class="lang-item"><span class="lang-item__n" data-i18n="sk.fr">Français</span><span class="lang-item__l" data-i18n="sk.frl">Langue maternelle</span></div>
+        <div class="lang-item"><span class="lang-item__n" data-i18n="sk.en">Anglais</span><span class="lang-item__l" data-i18n="sk.enl">B2 à l'écrit · B1 à l'oral</span></div>
+        <div class="lang-item"><span class="lang-item__n" data-i18n="sk.de">Allemand</span><span class="lang-item__l">B1</span></div>
+      </div>
+    </section>
+
+    <!-- ============ PASSIONS ============ -->
+    <section class="section" id="passions">
+      <div class="section__head reveal">
+        <p class="eyebrow" data-i18n="pa.eyebrow">En dehors du labo</p>
+        <h2 class="h2" data-i18n="pa.title">Ce qui me fait avancer.</h2>
+      </div>
+      <div class="bento">
+        <article class="bento__item bento__item--perfume reveal">
+          <div class="bento__art" aria-hidden="true">
+            <div class="flacon"><span class="flacon__cap"></span><span class="flacon__body"><i></i></span></div>
+            <span class="mist"></span><span class="mist"></span><span class="mist"></span>
+          </div>
+          <div class="bento__text">
+            <p class="eyebrow eyebrow--light" data-i18n="pa.k1">Parfumerie et cosmétique</p>
+            <h3 data-i18n="pa.t1">À mes yeux, l'une des plus belles applications de la chimie du XXI<sup>e</sup> siècle.</h3>
+            <p data-i18n="pa.p1">Une envie de longue date, confirmée par la visite des usines de parfumerie Fragonard à Grasse. Je m'intéresse aussi à la mode.</p>
+          </div>
+        </article>
+        <article class="bento__item bento__item--chess reveal">
+          <div class="chess" aria-hidden="true">
+            <div class="board" data-board></div>
+            <p class="board__moves mono" data-moves><span>1. d4</span> <span>d5</span> <span>2. c4</span></p>
+          </div>
+          <p class="eyebrow"><span data-i18n="pa.k3">Échecs</span> · <span data-i18n="pa.k3b">Gambit dame</span></p>
+          <h3 data-i18n="pa.t3">Anticiper, calculer, choisir.</h3>
+          <p data-i18n="pa.p3">Un jeu que j'adore.</p>
+        </article>
+        <article class="bento__item bento__item--foot reveal">
+          <div class="teams" aria-hidden="true">
+            <div class="team"><span class="team__flag team__flag--fra"></span><b data-i18n="pa.fra">Équipe de France</b><span class="team__tag">Les Bleus</span></div>
+            <div class="team"><span class="team__flag team__flag--ol"></span><b>Olympique Lyonnais</b><span class="team__tag">OL</span></div>
+          </div>
+          <p class="eyebrow" data-i18n="pa.k2">Football</p>
+          <h3 data-i18n="pa.t2">Supporter de l'équipe de France et de l'Olympique Lyonnais depuis plus de 12 ans.</h3>
+          <p data-i18n="pa.p2">Mon sport favori, pratiqué un an en club.</p>
+        </article>
+        <article class="bento__item reveal">
+          <div class="wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <p class="eyebrow" data-i18n="pa.k4">Guitare</p>
+          <h3 data-i18n="pa.t4">5 ans, en autodidacte.</h3>
+        </article>
+        <article class="bento__item reveal">
+          <p class="eyebrow" data-i18n="pa.k5">Sports</p>
+          <ul class="sports">
+            <li><span data-i18n="pa.s1">Tennis</span><b data-i18n="pa.s1v">8 ans</b></li>
+            <li><span data-i18n="pa.s2">Volley-ball</span><b data-i18n="pa.s2v">5 ans en AS</b></li>
+            <li><span data-i18n="pa.s3">Ski alpin</span><b data-i18n="pa.s3v">régulier</b></li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact" id="contact">
+      <div class="contact__card reveal">
+        <div class="contact__lines" aria-hidden="true"></div>
+        <h2 class="h2" data-i18n="ct.title">Une mesure juste commence<br><span class="muted">par une bonne question.</span></h2>
+        <p class="lead" data-i18n="ct.lead">Stage de technicien en instrumentation et métrologie, 11 semaines à partir du 12 avril 2027. Lyon, Saint-Étienne ou Île-de-France.</p>
+        <div class="contact__cta">
+          <a class="pill pill--accent" href="mailto:lucas.lozano@etu.univ-st-etienne.fr?subject=Stage%202027"><span data-i18n="ct.mail">Me contacter</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+          <a class="pill" href="https://www.linkedin.com/in/lucas-lozano-7154502a8/" target="_blank" rel="noopener">LinkedIn<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+          <a class="pill" href="assets/CV_LOZANO_Lucas.pdf" download><span data-i18n="ct.cv">CV en PDF</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19.5h14"/></svg></a>
+        </div>
+        <p class="contact__mail mono">lucas.lozano@etu.univ-st-etienne.fr</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© 2026 Lucas Lozano</span>
+    <span data-i18n="ft.made">Mesuré au micromètre près.</span>
+    <a href="#accueil" data-i18n="ft.top">Haut de page ↑</a>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
